@@ -19,6 +19,7 @@ export  function login(){
     provider.setCustomParameters({
         prompt: "select_account",   
     });
+    console.log('dhktdjdy');
     signInWithPopup(auth, provider)
     .catch(console.error);
 }

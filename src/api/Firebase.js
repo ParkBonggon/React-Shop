@@ -16,6 +16,9 @@ const provider = new GoogleAuthProvider();
 const database = getDatabase(app);
 
 export  function login(){
+      provider.setCustomParameters({
+        prompt: "select_account",   
+    });
     signInWithPopup(auth, provider)
     .catch(console.error);
 }

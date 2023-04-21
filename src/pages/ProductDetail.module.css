@@ -1,0 +1,87 @@
+.category {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.img {
+    width: 60%;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    flex-basis: 57%;
+}
+
+.div {
+    width: 100%;
+    flex-basis: 42%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.price {
+    text-align: end;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    border-bottom: #cbd5e0 solid 1px;
+}
+
+.description {
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+    font-size: 1.125rem;
+    text-align: end;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.label {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.select {
+    padding: 0.75rem;
+    margin-left: 1rem;
+    flex: 1 1 0%;
+    border: var(--color-bong) dashed 1px;
+    outline: 0;
+}
+
+.result {
+    margin : 1rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+    .section{
+        flex-direction: row;
+        align-items: start;
+    }
+  }

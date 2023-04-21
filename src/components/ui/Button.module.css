@@ -1,0 +1,15 @@
+.button {
+    background-color: var(--color-bong);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.125rem;
+    font-weight: bold;
+}
+
+.button:hover{
+    cursor: pointer;
+    filter: brightness(1.1);
+}

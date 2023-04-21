@@ -1,0 +1,20 @@
+.div{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    margin-right: 0.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .span {
+        visibility: hidden;
+    }
+}

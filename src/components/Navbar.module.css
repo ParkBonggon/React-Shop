@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+    border-bottom: gray solid 2px;
+    padding: 0.5rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+    color: black;
+}
+
+.icon {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.h1 {
+    margin-left: 1rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color:#404040;
+}
+
+.nav {
+    display: flex;
+    align-items: end;
+    font-size: 1rem;
+    gap: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: black;
+}

@@ -1,0 +1,57 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+
+.icon {
+    flex-shrink: 0;
+}
+
+.border {
+    width: 80%;
+    border-bottom: gray solid ;
+}
+
+.main {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.75rem;
+    border-bottom: black solid;
+}
+
+.ul {
+    padding-bottom: 1.5rem;
+    border-bottom: black solid;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.null {
+    margin: auto;
+    font-weight: bold;
+    font-size: 1rem;
+    align-items: center;
+}
+
+
+/* 태블릿 */
+@media screen and (min-width: 767px) {
+    .border{
+        width: 40%;
+    }
+
+    .section {
+        margin-bottom: 2rem;
+    }
+
+}
+
+
